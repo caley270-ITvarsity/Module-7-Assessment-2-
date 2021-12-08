@@ -1,0 +1,292 @@
+html{
+    height:100%;
+}
+
+body{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height:100%;  
+}
+
+.body-home {
+    background-image: url('image/exterior-brick-wall.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.body-meals {
+    background-image: url('images/background-02-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-img {
+    background-image: url('image/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-thanks{
+    width: 320px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+
+/*==========HOME PAGE==========*/
+#home-logo-img{
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px ;
+}
+/*===== HOME PAGE MENU=====*/
+
+.home-menu-item{
+     text-decoration: none;  
+     text-transform: uppercase;
+
+   color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #ffffff;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width:80%; 
+}
+
+/*==========MEALS PAGE==========*/
+#meals{
+    padding-top: 250px;
+}
+/*===== MEALS PAGE MENU=====*/
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+
+}
+
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+color: #1a1a1a;
+padding-right: 10px;
+}
+
+
+
+.meals-list-item p{
+ font-size: 15px;
+font-style: italic;
+color: #4d4d4d;
+margin-top: -7px;
+padding-left: 10px;
+
+}
+
+/*==========RECIPE PAGE==========*/
+#recipe{
+    padding-top: 50px;
+}
+/*===== RECIPE DETAILS=====*/
+.recipe-details img{
+    margin-top: 130px;
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-bottom:  10px;
+    float: right; 
+    position:fixed; right:10px; top:20px;
+}
+
+.recipe-details h1{
+font-size: 25px;
+text-align: center;
+border: 5px solid #1a1a1a;
+margin: 3px;
+padding: 5px;
+
+}
+
+.recipe-details h2{
+font-size: 20px;
+text-align: center;
+margin:70px;
+position: fixed;
+}
+
+
+
+
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label{
+line-height: 25px;
+margin-left: 10px;
+}
+
+.recipe-details-steps{
+    padding-top: 20px;
+}
+
+.recipe-details-steps ol{
+    padding-left: 28px;
+}
+
+/*===== RESPONSIVE LAYOUT=====*/
+@media only screen and (min-width: 600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+
+#recipe{
+        width: 80%;
+        margin: auto;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 60%;
+        margin: auto;
+}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+.body-home{
+    background-image:url('image/exterior-brick-wall.jpeg')
+}
+.body-meals{
+    background-image:url('images/background-02-land.png')
+}
+.body-img{
+    background-image: url('image/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
+}
+}
+
+h2{
+    
+    top: 100px;
+    position:fixed;
+    overflow:hidden;
+}
+
+/*contact form*/
+.container{
+    border-radius: 6px;
+background-color: rgb(245, 245, 245);
+padding: 20px;
+width: 300px;
+float: right;
+margin-right: 260px;
+margin-top: 70px;
+}
+
+input[type=text],select,textarea{
+width: 100%;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+}
+
+input[type=submit]{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*menu bar below*/
+#menu{
+    width: auto;
+    height: 55px;
+    background-color: black;
+    padding-top: 6px;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 800px;;
+    text-align: center;
+    padding-left: 235px;
+    padding-right: 5px;
+}
+
+#menu a:hover{
+    color: teal;
+}
+
+.header img{
+    width: 100px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
